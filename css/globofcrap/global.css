@@ -1,0 +1,62 @@
+body.startup {
+    /* Startup CSS */
+}
+
+    .header-2 .navbar {
+    font-family: "open_sansregular",Helvetica,Arial,sans-serif;
+    background-color:#2ecc71;
+    color:#fff;
+}
+
+.topMenu .title {
+    color: #fff;
+}
+
+.post-list, .post-list p, .error-page-content p {
+    color: #7F7F7F;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.single-post #allPosts, .page #allPosts {
+    display: block;
+    color:#fff;
+}
+
+.arrow-btn span:last-child {
+    padding: 0px 20px 0px 16px;
+    display: block;
+    height: 38px;
+    border-width: 1px 1px 1px 0px;
+    border-style: solid solid solid none;
+    border-color: #D8D8D8 #D8D8D8 #D8D8D8 -moz-use-text-color;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    border-radius: 0px 4px 4px 0px;
+    line-height: 38px;
+    box-sizing: content-box;
+    color: #fff;
+}
+
+a:hover, a:focus {
+    color: #2ecc71;
+    text-decoration: none;
+}
+
+.entry-title a:hover {
+    color:  #2ecc71;
+    text-decoration: none;
+}
+#respond form input#submit {
+    background-color: #2ecc71;
+    color: #FFF;
+    width: 170px;
+    font-size: 16px;
+    border: medium none;
+    text-align: center;
+    padding: 0px;
+}
