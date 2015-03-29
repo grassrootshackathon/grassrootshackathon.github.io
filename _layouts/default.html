@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <html>
   <head>
-    <title></title>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
 
     <!-- <link rel="stylesheet" href="{{ site.baseurl }}/css/globofcrap/mediaelementplayer.min.css"> -->
@@ -37,6 +37,7 @@
     <![endif]-->
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <script src="js/modernizr-2.6.2.min.js"></script>
   </head>
   <body class="startupla">
     <div class="custom-block">
@@ -90,5 +91,9 @@
          </div>
        </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
