@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/css/globofcrap/faq.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/globofcrap/sponsor.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/globofcrap/stylesheet.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
 
 
     <!--[if lt IE 9]>
@@ -26,7 +27,7 @@
     <![endif]-->
 
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="/js/modernizr-2.6.2.min.js"></script>
   </head>
   <body class="startupla">
     <div class="custom-block">
@@ -45,7 +46,7 @@
                    <li><a href="{{ site.baseurl }}/blog">Blog</a> </li>
                    <li><a href="{{ site.baseurl }}/contact">Contact Us</a></li>
                    <li><a href="{{ site.baseurl }}/faq">FAQ</a> </li>
-                   <li><a href="{{ site.baseurl }}/sponsor">Sponsor</a> </li>
+                   <li><a href="{{ site.baseurl }}/sponsor">Sponsor</a></li>
                  </ul>
                </div>
                <form class="navbar-form pull-left" action="" style="margin-top:10px">
@@ -74,9 +75,10 @@
                <li><a href="{{ site.baseurl }}/sponsor">Sponsor</a></li>
              </ul>
            </nav>
-           <div class="additional-links">
+           <!-- <div class="additional-links">
              Designed by <a href="http://www.onlinemarijuanadesign.com/">Online Marijuana Design</a>
-           </div>
+           </div> -->
+           <div class="pull-right">{% include svg-icons.html %}</div>
          </div>
        </footer>
     </div>

@@ -17,13 +17,12 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
-  email:
-  facebook:
+  email: support@grassrootshackathon.com
+  facebook: GrassRootsHackathon
   flickr:
   github: grassrootshackathon
   instagram:
-  rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
+  rss: anything # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: hackGrassRoots
   youtube: # channel/<your_long_string> or user/<user-name>
 
