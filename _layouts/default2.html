@@ -19,7 +19,7 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
   </head>
   <body>
-    <nav class="navbar navbar-default header">
+    <nav id="header" class="navbar navbar-default">
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav">
@@ -43,7 +43,7 @@
       </div>
     </nav>
     {{ content }}
-    <nav class="navbar navbar-default footer">
+    <nav id="footer" class="navbar navbar-default">
       <div class="container">
         <ul class="nav navbar-nav navbar-left">
           <li><a href="{{ site.baseurl }}/#about">About</a></li>
