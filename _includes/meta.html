@@ -3,6 +3,13 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
 
+    <!-- facebook -->
+    <meta property="og:site_name" content="{{ site.name }}">
+    {% if page.title %}
+    <meta property="og:title" content="{{ page.title }}" />
+    {% else %}
+    <meta property="og:title" content="{{ site.name }}" />
+    {% endif %}
     {% if page.excerpt %}
     <meta name="description" content="{{ page.excerpt| strip_html }}" />
     <meta property="og:description" content="{{ page.excerpt| strip_html }}" />
@@ -16,9 +23,17 @@
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     <meta property="og:image" content="{{ site.url }}/images/og_image.jpg">
 
+    <!-- twitter -->
+    <meta name="twitter:site" value="@{{site.footer-links.twitter }}"/>
     {% if page.title %}
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="twitter:title" content="{{ page.title }}" />
+    <meta name="twitter:title" value="{{ page.title }}"/>
     {% else %}
-    <meta property="og:title" content="{{ site.name }}" />
+    <meta name="twitter:title" value="{{ site.name }}"/>
     {% endif %}
+    {% if page.excerpt %}
+    <meta name="twitter:description" value="{{ page.excerpt| strip_html }}"/>
+    {% else %}
+    <meta name="twitter:description" value="{{ site.description }}"/>
+    {% endif %}
+    <meta name="twitter:url" value="{{ site.url }}{{ page.url }}"/>
+    <meta name="twitter:image:src" value="{{ site.url }}/images/og_image.jpg"/>
