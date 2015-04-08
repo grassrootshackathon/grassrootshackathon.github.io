@@ -7,10 +7,14 @@
   <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>
 
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
 
     <link rel="stylesheet" href="{{ site.baseurl }}/css/globofcrap/css3_grid_style1.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/globofcrap/bootstrap.css">
-    <!-- <link rel="stylesheet" href="{{ site.baseurl }}/css/globofcrap/flat-ui.css"> -->
     <link rel="stylesheet" href="{{ site.baseurl }}/css/globofcrap/icon-font.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/globofcrap/wp-common.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/globofcrap/custom.css">
@@ -21,12 +25,8 @@
     <link rel="stylesheet" href="{{ site.baseurl }}/css/globofcrap/stylesheet.css">
     <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
 
-
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
     <script src="/js/modernizr-2.6.2.min.js"></script>
   </head>
   <body class="startupla">
@@ -75,9 +75,6 @@
                <li><a href="{{ site.baseurl }}/sponsor">Sponsor</a></li>
              </ul>
            </nav>
-           <!-- <div class="additional-links">
-             Designed by <a href="http://www.onlinemarijuanadesign.com/">Online Marijuana Design</a>
-           </div> -->
            <div class="pull-right">{% include svg-icons.html %}</div>
          </div>
        </footer>
@@ -86,5 +83,6 @@
     <script src="/js/bootstrap.min.js"></script>
     <script src="/js/jquery.scrollTo.min.js"></script>
     <script src="/js/main.js"></script>
+    {% include analytics.html %}
   </body>
 </html>
