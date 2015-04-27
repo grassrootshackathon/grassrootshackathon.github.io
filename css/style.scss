@@ -13,3 +13,48 @@
 
 
 @import "svg-icons";
+
+#mc_embed_signup .form-inline {
+  overflow: hidden;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+#mc_embed_signup .form-inline .input-container {
+  display: block;
+  overflow: hidden;
+  padding-right: 15px;
+}
+#mc_embed_signup .form-inline input {
+  width: 100%;
+}
+#mc_embed_signup .form-inline button {
+  float: right;
+}
+
+
+#mc_embed_signup .form-control {
+  height: 48px;
+  padding: 2px 12px;
+  font-size: 22px;
+  line-height: 1.42857143;
+  background-image: none;
+  border-radius: 0;
+}
+#mc_embed_signup .btn {
+  font-size: 15px;
+  padding: 12px 20px 12px 20px;
+  border-radius: 50px;
+  font-weight: 300;
+  background-color: #2ecc71;
+  color: white;
+}
+#mc_embed_signup span.tell-me-more {
+  float:left;
+}
+#mc_embed_signup .tell-me-more strong {
+  font-size: 48px;
+  line-height: 48px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-right: 25px;
+}
