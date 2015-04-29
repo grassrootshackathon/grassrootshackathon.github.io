@@ -6,13 +6,22 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
+      <div class="row text-center">
+        <h2 class="col-sm-8 col-sm-offset-2 col-xs-10 col-xs-offset-1">
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </h2>
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <div class="entry row post-excerpt">
+        <div class="col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+          {{ post.excerpt }}
+        </div>
+      </div>
+
+      <div class="row text-center read-post-btn">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"><button class="btn btn-success" style="border-radius:50px">Read More</button></a>
+      </div>
+        
     </article>
   {% endfor %}
 </div>

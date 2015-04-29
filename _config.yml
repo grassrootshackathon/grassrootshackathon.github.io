@@ -12,6 +12,9 @@ description: GrassRoots is Seattle's first tech startup competition strictly for
 # Flags below are optional
 #
 
+# Set custom excerpt separator
+excerpt_separator: <!-- more -->
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   email: support@grassrootshackathon.com
