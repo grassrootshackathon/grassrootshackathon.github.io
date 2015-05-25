@@ -44,10 +44,17 @@
                  <ul class="nav">
                    <li><a href="{{ site.baseurl }}/#about">About</a> </li>
                    <li><a href="{{ site.baseurl }}/blog">Blog</a> </li>
-                   <li><a href="{{ site.baseurl }}/contact">Contact Us</a></li>
+                   <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
                    <li><a href="{{ site.baseurl }}/faq">FAQ</a> </li>
                    <li><a href="{{ site.baseurl }}/sponsor">Sponsor</a></li>
-                   <li><a href="{{ site.baseurl }}/judges-mentors">Judges/Mentors</a></li>
+                   <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">People <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="{{ site.baseurl }}/people#judges">Judges</a></li>
+                      <li><a href="{{ site.baseurl }}/people#mentors">Mentors</a></li>
+                      <li><a href="{{ site.baseurl }}/people#organizers">Organizers</a></li>
+                    </ul>
+                  </li>
                  </ul>
                </div>
                <form class="navbar-form pull-left" action="" style="margin-top:10px">
@@ -71,7 +78,7 @@
              <ul>
                <li><a href="{{ site.baseurl }}/#about">About</a></li>
                <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-               <li><a href="{{ site.baseurl }}/contact">Contact Us</a></li>
+               <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
                <li><a href="{{ site.baseurl }}/faq">FAQ</a></li>
                <li><a href="{{ site.baseurl }}/sponsor">Sponsor</a></li>
                <li><a href="http://confcodeofconduct.com/">Code of Conduct</a></li>
