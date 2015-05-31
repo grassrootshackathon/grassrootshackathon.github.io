@@ -5,7 +5,7 @@ image: posts/nerdvana.jpg
 by: Josh McBroom
 ---
 The recent explosion of popularity in cannabis as an industry is fascinating and thought-provoking.  Although perhaps too early to call, it seems reminiscent of the development of the technology industry - at first mistrusted, then grudgingly accepted, until becoming a part of everyday life.  
-
+<!-- more -->
 The more I think on it, the more similarities I see between technology and cannabis:
 
  - **Power to improve quality of life.** Technology in medical advancement has allowed us to live better, for longer, than ever before, and cannabis is helping people with seizures, wasting diseases, cancer treatment, and more.
